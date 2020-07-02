@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Cositas">		
+	<title>Exercici 2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+
+<script>
+	console.log('Partiendo del nombre Natalia1')
+	
+	let nombre = ['N', 'A', 'T','A', 'L', 'I', 'A', 1]; 
+    for(n = 0; n < nombre.length; n++){
+    let ordinal = n;
+
+	if (typeof nombre[n] == 'number') {
+	console.log('El número ' + nombre [n] + ' no es parte del nombre'); 
+	}
+	
+	else if (nombre[n] == 'A' || nombre[n] == 'I') {
+	console.log('La letra ' + nombre[n] + ' es vocal'); 
+	}
+
+	else {
+	console.log('La letra ' + nombre [n] + ' es consonante'); 
+	}
+}
+</script>
+
+</body>
+</html>
